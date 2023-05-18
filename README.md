@@ -24,14 +24,9 @@ The data set that has both ordinal and nominal DVs and ordinal and nominal IVs. 
 
 **TEST SELECTION**
 
-**--------------------------------------------------------------------------------------------------------------------------------**
-| Independent Variable| Dependent Variable |    Group   |                                Tests                                    |                     
-**--------------------------------------------------------------------------------------------------------------------------------**
-|     Ordinal         |       Ordinal      |  > 2, > 2  |          Linear to Linear (Ordinal Chi2 test), Kendalltau,              |
-|                     |                    |            |                   Jonckheere–Terpstra, Cuzick tests                     |
-|     Ordinal         |       Nominal      |  > 2, = 2  |                                                                                  
-|     Nominal         |       Ordinal      |  > 2, > 2  |                           Kruskal Wallis                                |
-|     Nominal         |       Nominal      |  > 2, = 2  |                     Chi square for association                          |
-**---------------------------------------------------------------------------------------------------------------------------------**
-
+Independent | Dependent Variable | Group | Tests                                                      
+Ordinal | Ordinal | > 2, > 2  |  Linear to Linear (Ordinal Chi2 test), Kendalltau,Jonckheere–Terpstra, Cuzick tests                    
+Ordinal | Nominal | > 2, = 2  |                                                                                  
+Nominal | Ordinal | > 2, > 2  |  Kruskal Wallis  
+Nominal | Nominal | > 2, = 2  |  Chi square for association    
 
