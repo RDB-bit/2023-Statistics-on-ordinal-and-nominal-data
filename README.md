@@ -30,3 +30,6 @@ Ordinal | Nominal | > 2, = 2  |
 Nominal | Ordinal | > 2, > 2  |  Kruskal Wallis  
 Nominal | Nominal | > 2, = 2  |  Chi square for association    
 
+**CODE LANGUAGES**
+1. Python - data exploration and wrangling
+2. R - somethings are better left to R ( Few Statistical tests) 
