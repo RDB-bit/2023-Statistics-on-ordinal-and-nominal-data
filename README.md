@@ -8,7 +8,7 @@ This worksheet combines statistical tests and effect size functionalities (inbui
 Usually tests are run solo, and one might forget other important statements to add to interpret tests results better. This project is an attempt to combine such insight into one place to deliver wholesome inference on data
 
 STAGE 1 - CHECKED - Descriptive data exploration (basically descriptive stats and general over view. First glace into the ether, trying to make sense)
-STAGE 2 - CHECKED - Comprehensive data exploration, nailing rewlationships, trends and correlations where some sense emerges
+STAGE 2 - CHECKED - Comprehensive data exploration, nailing relationships, trends and correlations where some sense emerges
 STAGE 3 - this is where we are
 
 The data set that has both ordinal and nominal DVs and ordinal and nominal IVs. Doing this tasks felt like code waltzes through the statistical realm after 3 shots of Absinthe. 
@@ -27,6 +27,10 @@ Most brain wracking went into test selection and running others for basic compar
 4.  Ratings in SampleData are conversions from text based input to numbered inputs
 
 **TEST SELECTION**
+
+Goodness of fit test - With any survey on a sample, must check if sample aptly represents the population. This can be carried out using 
+1. 'Goodness of fit' tests like Chi2 or
+2. Plotting sample distribution vs Population (if sample size is too small). Some plots attached as examples. 
 
 IV to DV | Group size
 
