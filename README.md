@@ -23,24 +23,31 @@ Most brain wracking went into test selection and running others for basic compar
         3.  Added ranking columns whilst generating the work-ready data
     This helped split the scripts vastly related to tests for either Ordinal or Nominal data 
     This helped reduce data cleaning and wrangling code for further processes
-3.  SampleData - Sample datasheet shared
-4.  Ratings in SampleDataNominal are not used in anyway - they are residual of data preparation
+3.  SampleData - Sample datasheet shared. Column A in SampleData is Independent variable and Column B is dependent variable with responses. The Headers are decoded, that is why they have values like 7-40-1 etc. 
+4.  Ratings in SampleData are conversions from text based input to numbered inputs
 
 **TEST SELECTION**
 
 IV to DV | Group size
 
 Ordinal to Ordinal | > 2, > 2 -> Linear to Linear (Ordinal Chi2 test), Kendalltau, Jonckheere–Terpstra, Cuzick tests
-Ordinal to Nominal | > 2, = 2 -> 
+
+Ordinal to Nominal | > 2, = 2 -> Cochran–Armitage test for trend
+
 Nominal to Ordinal | > 2, > 2 -> Kruskal Wallis (works on Ordinal IV too , as treats it as Nominal anyway)
+
 Nominal to Nominal | > 2, = 2 -> Chi2
 
 **EFFECT SIZE**
 
-Nominal - Nominal -> Chi2 -> Cramver V [0 to 1] or phi
 Ordinal - Ordinal -> Kendall tau -> tau [-1 to 1] (b and c) or Kruskal's gamma
+
 Ordinal - Nominal -> Kruskal Wallis -> epsilon-squared [0 to 1] 
+
 Ordinal - Nominal -> Freeman’s theta [0 to 1] or epsilon-squared [0 to 1] or eta-squared (more biased) [0 to 1]
+
+Nominal - Nominal -> Chi2 -> Cramver V [0 to 1] or phi
+
 
  
 **CODE AND INSTALLATION DESCRIPTION**
