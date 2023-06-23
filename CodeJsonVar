@@ -1,0 +1,204 @@
+{
+    "dv": {
+        "ordinal": {
+            "4-15": {
+                "I never check": 0,
+                "Very rarely": 1,
+                "Rarely": 2,
+                "Only when there is/I suspect an issue": 3,
+                "Regularly": 4,
+                "Very regularly": 5
+            },
+            "4-16": {
+                "Very unconfident": 0,
+                "Somewhat unconfident": 1,
+                "Neither confident nor unconfident": 2,
+                "Somewhat confident": 3,
+                "Very confident": 4
+            },
+            "4-17": {
+                "I would not use my vehicle and immediately seek to resolve the issue": 5,
+                "I would continue to use my vehicle and would aim to resolve the issue as soon as possible (e.g. by the end of the day)": 4,
+                "I would continue to use my vehicle and would aim to resolve the issue reasonably quickly (e.g. by the end of the week)": 3,
+                "I would continue to use my vehicle and would aim to resolve the issue at some point (e.g. sometime longer than a week)": 2,
+                "I would find out what the warning light means and decide what to do based on that": 1,
+                "I would continue to use my vehicle and ignore the warning light as it is not impacting on my vehicle\u2019s control": 0,
+                "Don\u2019t know": 6
+            },
+            "4-20": {
+                "Never heard of it": 0,
+                "Aware of, but know nothing about it": 1,
+                "Just a little": 2,
+                "A fair amount": 3,
+                "A great deal": 4,
+                "Don\u2019t know": 5
+            },
+            "4-21": {
+                "Very poor": 0,
+                "Poor": 1,
+                "Neither good nor poor": 2,
+                "Good": 3,
+                "Very good": 4,
+                "Don\u2019t know": 5
+            },
+            "6-35": {
+                "Very unlikely": 0,
+                "Unlikely": 1,
+                "Neither more nor less likely": 2,
+                "Likely": 3,
+                "Very likely": 4,
+                "Don\u2019t know": 5
+            },
+            "6-36": {
+                "I would not try to address the advisories": 0,
+                "I would address the advisories within 7-12 months": 1,
+                "I would address the advisories within 2-6 months": 2,
+                "I would address the advisories within 3-4 weeks": 3,
+                "I would address the advisories within 1-2 weeks": 4,
+                "I would address the advisories immediately": 5,
+                "Don\u2019t know": 6
+            },
+            "6-37": {
+                "I would not try to address the minor defects": 0,
+                "I would address the minor defects within 7-12 months": 1,
+                "I would address the minor defects within 2-6 months": 2,
+                "I would address the minor defects within 3-4 weeks": 3,
+                "I would address the minor defects within 1-2 weeks": 4,
+                "I would address the minor defects immediately": 5,
+                "Don\u2019t know": 6
+            }
+
+        },
+        "nominal": {
+            "4-18": {"Yes" : 1, "No" : 0},
+            "4-19": {"Yes" : 1, "No" : 0},
+            "5-22":{
+                "I don\u2019t usually get my vehicle serviced" :0,
+                "My vehicle only gets serviced if needed to pass a failed MOT" : 1,
+                "My vehicle gets serviced and its MOT at different times (i.e. my vehicle gets serviced in line with manufacturer\u2019s recommendations, but this does not align with the timing of the MOT)" : 2,
+                "My vehicle gets serviced and its MOT at the same time (i.e. scheduled on the same day)": 3,
+                "My vehicle gets serviced as it nears the time of its MOT (e.g. in the week prior to its MOT date)":4,
+                "Don\u2019t know" : 5
+            },
+            "6-38": {
+                "I would only address the maintenance needs required to pass the MOT": 0,
+                "I would address all maintenance needs, both those that were necessary to pass the MOT and those that were not": 1,
+                "Don\u2019t know": 2
+            }
+        }
+    },
+    "iv": {
+        "ordinal": {
+            
+            "2-5-5": {
+                "Less than one year old": 0,
+                "1-2 years old": 1,
+                "3-5 years old": 2,
+                "6-10 years old": 3,
+                "Over 10 years old": 4,
+                "Don\u2019t know": 5
+                },
+
+            "2-6-5":{
+                "Less than 1,000 miles": 0,
+                "1,000-4,999 miles": 1,
+                "5,000-9,999 miles": 2,
+                "10,000-24,999 miles": 3,
+                "25,000-49,999 miles": 4,
+                "50,000-100,000 miles": 5,
+                "Over 100,000 miles": 6,
+                "Don\u2019t know": 7
+            },
+            
+            "7-40-5": {
+                "17-25": 0,
+                "26-35": 1,
+                "36-45": 2,
+                "46-55": 3,
+                "56-65": 4,
+                "Over 65": 5,
+                "Prefer not to say": 6
+            },
+
+            "7-44-5": {
+                "Less than \u00a310,000": 0,
+                "\u00a310,000-\u00a319,999": 1,
+                "\u00a320,000-\u00a329,999": 2,
+                "\u00a330,000-\u00a339,999": 3,
+                "\u00a340,000-\u00a349,999": 4,
+                "\u00a350,000-\u00a359,999": 5,
+                "\u00a360,000-\u00a369,999": 6,
+                "\u00a370,000-\u00a379,999": 7,
+                "\u00a380,000-\u00a389,999": 8,
+                "\u00a390,000-\u00a399,999": 9,
+                "\u00a3100,000-\u00a3149,999": 10,
+                "\u00a3150,000 or more": 11,
+                "Prefer not to say": 12
+        }
+    },
+        "nominal": {
+            "7-43-5":{
+                "Not currently working (e.g. retired, homemaker, job-seeking)": 0,
+                "Part-time employed": 1,
+                "Full-time employed": 2,
+                "Student": 3,
+                "Other": 4,
+                "Prefer not to say": 5
+            },
+
+            "5-22-5":{
+                "I don\u2019t usually get my vehicle serviced" :0,
+                "My vehicle only gets serviced if needed to pass a failed MOT" : 1,
+                "My vehicle gets serviced and its MOT at different times (i.e. my vehicle gets serviced in line with manufacturer\u2019s recommendations, but this does not align with the timing of the MOT)" : 2,
+                "My vehicle gets serviced and its MOT at the same time (i.e. scheduled on the same day)": 3,
+                "My vehicle gets serviced as it nears the time of its MOT (e.g. in the week prior to its MOT date)":4,
+                "Don\u2019t know" : 5
+            }
+        }
+    },
+    "colors": [
+        [
+            0.9411764705882353,
+            0.9725490196078431,
+            1.0
+        ],
+        [
+            0.5294117647058824,
+            0.807843137254902,
+            0.9803921568627451
+        ],
+        [
+            0.0,
+            0.7490196078431373,
+            1.0
+        ],
+        [
+            0.11764705882352941,
+            0.5647058823529412,
+            1.0
+        ]
+    ],
+    "cmap_name": "BLUE_colormap",
+    "values_to_drop": [
+        "Don\u2019t know",
+        "Prefer not to say"
+    ],
+
+    "2-5-5" : "Vehicle age",
+    "2-6-5" : "Mileage",
+    "5-22-5" : "Servicing Behaviour",
+    "7-40-5" : "Age",
+    "7-44-5" : "Income",
+    "7-43-5" : "Employment status",
+
+    "iv-dv" : { "7-40-5" : ["4-15", "4-16", "4-17", "4-18", "4-19", "4-20", "4-21", "5-22","6-35", "6-36", "6-37", "6-38"],
+    "7-43-5": ["5-22","6-35", "6-36", "6-37", "6-38"],
+    "7-44-5": ["5-22","6-35", "6-36", "6-37", "6-38"],
+    "2-5-5" : ["4-17", "4-18", "5-22","6-35", "6-36", "6-37", "6-38"],
+    "2-6-5" : ["4-17", "4-18", "5-22","6-35", "6-36", "6-37", "6-38"],
+    "5-22-5" : ["4-17", "6-35"]
+    }
+
+    
+
+}
